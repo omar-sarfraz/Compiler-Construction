@@ -1,0 +1,10 @@
+﻿NounPhrase VerbPhrase .,NounPhrase VerbPhrase .,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,pop
+Determiner Noun NounPhrasePrime,Determiner Noun NounPhrasePrime,scan,scan,scan,scan,pop,popp,pop,pop,pop,pop,pop
+scan,scan,scan,scan,scan,scan,#,#,PrepositionalPhrase NounPhrasePrime,PrepositionalPhrase NounPhrasePrime,#,PrepositionalPhrase NounPhrasePrime,#
+scan,scan,scan,scan,scan,scan,pop,pop,Preposition NounPhrase,Preposition NounPhrase,pop,Preposition NounPhrase,pop
+the,a,pop,pop,pop,pop,scan,scan,scan,scan,scan,scan,scan
+scan,scan,cat,dog,man,women,pop,pop,pop,pop,pop,pop,pop
+pop,pop,scan,scan,scan,scan,chased,caught,scan,scan,scan,scan,scan
+pop,pop,scan,scan,scan,scan,scan,scan,in,on,scan,with,scan
+scan,scan,scan,scan,scan,scan,chased VerbPhrasePrime,caught VerbPhrasePrime,scan,scan,pop,scan,scan
+scan,scan,scan,scan,scan,scan,scan,scan,PrepositionalPhrase VerbPhrasePrime,PrepositionalPhrase VerbPhrasePrime,scan,PrepositionalPhrase VerbPhrasePrime,#

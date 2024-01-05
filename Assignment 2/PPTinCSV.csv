@@ -1,0 +1,25 @@
+scan,scan,scan,scan,scan,Type identifier ( ArgList ) CompoundStmt,Type identifier ( ArgList ) CompoundStmt,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,pop
+scan,scan,pop,scan,scan,Arg ArgListPrime,Arg ArgListPrime,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+scan,scan,#,", Arg ArgListPrime",scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+scan,scan,pop,pop,scan,Type identifier,Type identifier,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+Expr ;,scan,scan,scan,;,Declaration,Declaration,WhileStmt,IfStmt,pop,CompoundStmt,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+pop,scan,scan,scan,pop,Type identifier ;,Type identifier ;,pop,pop,pop,pop,pop,scan,scan,scan,scan,scan,scan,scan,scan,scan
+pop,scan,scan,scan,scan,int,float,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+pop,scan,scan,scan,pop,pop,pop,while ( BoolExpr ) Stmt,pop,pop,pop,pop,scan,scan,scan,scan,scan,scan,scan,scan,scan
+pop,scan,scan,scan,pop,pop,pop,pop,if ( BoolExpr ) Stmt Else,pop,pop,pop,scan,scan,scan,scan,scan,scan,scan,scan,scan
+#,scan,scan,scan,#,#,#,#,#,ElsePart,#,#,scan,scan,scan,scan,scan,scan,scan,scan,scan
+pop,scan,scan,scan,pop,pop,pop,pop,pop,else Stmt,pop,pop,scan,scan,scan,scan,scan,scan,scan,scan,scan
+pop,scan,scan,scan,pop,pop,pop,pop,pop,pop,{ CompoundStmtPrime,pop,scan,scan,scan,scan,scan,scan,scan,scan,scan
+StmtList },scan,scan,scan,StmtList },StmtList },StmtList },StmtList },StmtList },pop,StmtList },StmtList },scan,scan,scan,scan,scan,scan,scan,scan,scan
+Stmt StmtListPrime,scan,scan,scan,Stmt StmtListPrime,Stmt StmtListPrime,Stmt StmtListPrime,Stmt StmtListPrime,Stmt StmtListPrime,scan,Stmt StmtListPrime,pop,scan,scan,scan,scan,scan,scan,scan,scan,scan
+Stmt StmtListPrime,scan,scan,scan,Stmt StmtListPrime,Stmt StmtListPrime,Stmt StmtListPrime,Stmt StmtListPrime,Stmt StmtListPrime,scan,Stmt StmtListPrime,#,scan,scan,scan,scan,scan,scan,scan,scan,scan
+identifier Compare Mag,scan,pop,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+pop,pop,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,< ComparePrime,> CompareDoublePrime,= =,scan,scan,scan,scan,pop,scan
+#,#,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,>,=,scan,scan,scan,scan,#,scan
+#,#,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,=,scan,scan,scan,scan,#,scan
+identifier = Mag,scan,scan,scan,pop,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan
+Term MagPrime,Term MagPrime,pop,scan,pop,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,Term MagPrime,scan
+scan,scan,#,scan,#,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,+ Term MagPrime,- Term MagPrime,scan,scan,scan,scan
+Factor TermPrime,Factor TermPrime,pop,scan,pop,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,pop,pop,scan,scan,Factor TermPrime,scan
+scan,scan,#,scan,#,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,#,#,* Factor TermPrime,/ Factor TermPrime,scan,scan
+identifier,( Expr ),pop,scan,pop,scan,scan,scan,scan,scan,scan,scan,scan,scan,scan,pop,pop,pop,pop,number,scan

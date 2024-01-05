@@ -1,0 +1,12 @@
+int
+identifier
+(
+int
+identifier
+)
+{
+int
+identifier
+;
+}
+$

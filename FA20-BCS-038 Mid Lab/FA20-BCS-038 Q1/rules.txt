@@ -1,0 +1,3 @@
+A=Ab|ca|Ac
+B=cd|ab|dc
+C=Cd|ac

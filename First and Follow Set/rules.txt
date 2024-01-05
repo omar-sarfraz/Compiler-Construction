@@ -1,0 +1,3 @@
+S=Ac|aB
+A=aB|B
+B=b|$

@@ -1,0 +1,12 @@
+@CONST INT @myIdentifier;@askdjk__ := 123;
+FLOAT @anotherIdentifier := 23.5;
+INT @sum := @myIdentifier + @anotherIdentifier;
+IF ( @sum > 100 ) {
+    @CONTINUE == 20
+} ELSE {
+    @BREAK == 40
+}
+ABC STRING CONTINUE;
+<comment> ajfafjoakf as akja 
+f@lkdsjfl
+ lasf;'gdjs </comment>
